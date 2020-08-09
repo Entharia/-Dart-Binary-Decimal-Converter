@@ -1,6 +1,6 @@
 class Converter {
-  int decimalToBinary(var decimal) {
-    var binary = 0;
+  int decimalToBinary(int decimal) {
+    int binary = 0;
     int i = 1;
     while (decimal > 0) {
       binary = binary + (decimal % 2) * i;
